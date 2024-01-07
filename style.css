@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  width: 90%;
+  max-width: 1320px;
+  margin: 50px auto;
+  border-radius: 16px;
+}
+
+.header-container {
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%), url("/resources/Banner\ Image.png");
+  border-radius: 16px;
+}
+.party-container-info h1 {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 7px;
+}
+.party-container-info p {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.party-container-info button {
+  color: white;
+  font-family: Inter;
+  padding: 10px 20px;
+  background-color: transparent;
+  border: none;
+}
+.party-container-info {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 24px;
+}
+.party-container {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  padding: 68px 168px;
+  gap: 39px;
+}
+.party-section-container {
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%), url("/resources/Vectorrr.png");
+  background-size: cover;
+}
+.header-title {
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  align-items: center;
+  padding: 177px 344px;
+  justify-content: center;
+}
+.big-title {
+  color: #fff;
+  width: 630px;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 95px;
+}
+.small-title {
+  color: #fff;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 32px;
+  font-weight: 400;
+}
+.discount-main-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 400px;
+  margin-bottom: 70px;
+  justify-content: center;
+}
+.discount-amount-heading {
+  color: #f00;
+  margin-top: 70px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-family: Inter;
+  font-size: 88px;
+  font-weight: 700;
+}
+.discount-heading-quality {
+  color: #f00;
+  margin-bottom: 16px;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.discount-catagory {
+  color: #070211;
+  margin-bottom: 48px;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+}
